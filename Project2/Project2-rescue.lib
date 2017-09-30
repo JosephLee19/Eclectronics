@@ -1,6 +1,26 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# AZ34063U
+#
+DEF AZ34063U U 0 40 Y Y 1 F N
+F0 "U" -550 -150 60 H V C CNN
+F1 "AZ34063U" -50 50 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -900 200 650 -200 0 1 0 N
+X Switch_Collector 1 -1100 150 200 R 50 50 1 1 I
+X Switch_Emitter 2 -1100 50 200 R 50 50 1 1 I
+X Timing_Capacitor 3 -1100 -50 200 R 50 50 1 1 I
+X GND 4 -1100 -150 200 R 50 50 1 1 I
+X Comparator_Inverting_Input 5 850 -150 200 L 50 50 1 1 I
+X Vcc 6 850 -50 200 L 50 50 1 1 I
+X Ipk_Sense 7 850 50 200 L 50 50 1 1 I
+X Driver_Collector 8 850 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Audio-Jack-2
 #
 DEF Audio-Jack-2 J 0 40 Y Y 1 F N
